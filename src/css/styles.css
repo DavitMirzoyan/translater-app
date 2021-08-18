@@ -1,0 +1,19 @@
+#timerContainer {
+    display: flex;
+}
+
+#timer {
+    margin-left: 24px;
+}
+
+.topright {
+    position: absolute;
+    top: 30px;
+    right: 62px;
+}
+
+.middleright {
+    position: absolute;
+    top: 70px;
+    right: 62px;
+}

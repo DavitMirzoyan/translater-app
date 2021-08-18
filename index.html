@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Including styles-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/css/styles.css" rel="stylesheet">
+
+
+    <!-- Title -->
+    <title>Hello World!</title>
+
+    <!-- Electron's metas -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Hello World!</h1>
+
+        <ul>
+            <li> Some Info</li>
+        </ul>
+
+        <div id="timerContainer">
+
+            <button type="button" class="btn btn-primary" id="startButton">Start</button>
+        </div>
+
+        <div id="textContainer">
+            <div class="topright">
+                <label for="language">The speaker's language:</label>
+                <select name="language" id="languages">
+                    <option value="null">Select</option>
+                    <option value="german">German</option>
+                    <option value="english">English</option>
+                    <option value="armenian">Armenian</option>
+                    <option value="french">French</option>
+                </select>
+            </div>
+
+            <div class="middleright">
+                <label for="language">Translating to language:</label>
+                <select name="language" id="translatingLanguage">
+                    <option value="null">Select</option>
+                    <option value="german">German</option>
+                    <option value="english">English</option>
+                    <option value="armenian">Armenian</option>
+                    <option value="french">French</option>
+                </select>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- Custom scripts -->
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
